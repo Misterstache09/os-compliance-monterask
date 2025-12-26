@@ -6,7 +6,10 @@ The three semaphores used to synchronize producers and consumers are mutex, empt
 
 **Compilation and Execution Instructions**
 
-Open the terminal in the directory containing the files.
-Compile the program using: make
-Run the program with: make run
-Delete the compiled file with: make clean
+1. Open the terminal in the directory containing the files.
+   
+2. Compile the program using: make
+   
+3. Run the program with: make run
+   
+4. Delete the compiled file with: make clean
