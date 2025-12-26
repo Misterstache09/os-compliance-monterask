@@ -1,0 +1,110 @@
+Producers: 3
+Consumers: 4
+[Time 0]Producer 1 produced 1 at index 0
+--- Buffer:[ 1 0 0 0 0 ] ---
+[Time 0]Producer 2 produced 2 at index 1
+--- Buffer:[ 1 2 0 0 0 ] ---
+[Time 0]Producer 3 produced 3 at index 2
+--- Buffer:[ 1 2 3 0 0 ] ---
+[Time 0]Consumer 1 consumed 1 from index 0
+--- Buffer:[ 0 2 3 0 0 ] ---
+[Time 0]Consumer 2 consumed 2 from index 1
+--- Buffer:[ 0 0 3 0 0 ] ---
+[Time 0]Consumer 3 consumed 3 from index 2
+--- Buffer:[ 0 0 0 0 0 ] ---
+[Time 10]Producer 2 produced 4 at index 3
+--- Buffer:[ 0 0 0 4 0 ] ---
+[Time 10]Producer 1 produced 5 at index 4
+--- Buffer:[ 0 0 0 4 5 ] ---
+[Time 10]Consumer 4 consumed 4 from index 3
+--- Buffer:[ 0 0 0 0 5 ] ---
+[Time 10]Producer 3 produced 6 at index 0
+--- Buffer:[ 6 0 0 0 5 ] ---
+[Time 10]Consumer 3 consumed 5 from index 4
+--- Buffer:[ 6 0 0 0 0 ] ---
+[Time 10]Consumer 1 consumed 6 from index 0
+--- Buffer:[ 0 0 0 0 0 ] ---
+[Time 20]Producer 1 produced 7 at index 1
+--- Buffer:[ 0 7 0 0 0 ] ---
+[Time 20]Consumer 2 consumed 7 from index 1
+--- Buffer:[ 0 0 0 0 0 ] ---
+[Time 20]Producer 3 produced 8 at index 2
+--- Buffer:[ 0 0 8 0 0 ] ---
+[Time 20]Producer 2 produced 9 at index 3
+--- Buffer:[ 0 0 8 9 0 ] ---
+[Time 20]Consumer 4 consumed 8 from index 2
+--- Buffer:[ 0 0 0 9 0 ] ---
+[Time 20]Consumer 1 consumed 9 from index 3
+--- Buffer:[ 0 0 0 0 0 ] ---
+[Time 30]Producer 2 produced 10 at index 4
+--- Buffer:[ 0 0 0 0 10 ] ---
+[Time 30]Producer 3 produced 11 at index 0
+--- Buffer:[ 11 0 0 0 10 ] ---
+[Time 30]Consumer 3 consumed 10 from index 4
+--- Buffer:[ 11 0 0 0 0 ] ---
+[Time 30]Producer 1 produced 12 at index 1
+--- Buffer:[ 11 12 0 0 0 ] ---
+[Time 30]Consumer 2 consumed 11 from index 0
+--- Buffer:[ 0 12 0 0 0 ] ---
+[Time 30]Consumer 1 consumed 12 from index 1
+--- Buffer:[ 0 0 0 0 0 ] ---
+[Time 40]Producer 3 produced 13 at index 2
+--- Buffer:[ 0 0 13 0 0 ] ---
+[Time 40]Consumer 4 consumed 13 from index 2
+--- Buffer:[ 0 0 0 0 0 ] ---
+[Time 40]Producer 2 produced 14 at index 3
+--- Buffer:[ 0 0 0 14 0 ] ---
+[Time 40]Producer 1 produced 15 at index 4
+--- Buffer:[ 0 0 0 14 15 ] ---
+[Time 40]Consumer 1 consumed 14 from index 3
+--- Buffer:[ 0 0 0 0 15 ] ---
+[Time 40]Consumer 3 consumed 15 from index 4
+--- Buffer:[ 0 0 0 0 0 ] ---
+[Time 50]Producer 3 produced 16 at index 0
+--- Buffer:[ 16 0 0 0 0 ] ---
+[Time 50]Producer 1 produced 17 at index 1
+--- Buffer:[ 16 17 0 0 0 ] ---
+[Time 50]Producer 2 produced 18 at index 2
+--- Buffer:[ 16 17 18 0 0 ] ---
+[Time 50]Consumer 2 consumed 16 from index 0
+--- Buffer:[ 0 17 18 0 0 ] ---
+[Time 50]Consumer 4 consumed 17 from index 1
+--- Buffer:[ 0 0 18 0 0 ] ---
+[Time 50]Consumer 1 consumed 18 from index 2
+--- Buffer:[ 0 0 0 0 0 ] ---
+[Time 60]Producer 1 produced 19 at index 3
+--- Buffer:[ 0 0 0 19 0 ] ---
+[Time 60]Producer 3 produced 20 at index 4
+--- Buffer:[ 0 0 0 19 20 ] ---
+[Time 60]Producer 2 produced 21 at index 0
+--- Buffer:[ 21 0 0 19 20 ] ---
+[Time 60]Consumer 3 consumed 19 from index 3
+--- Buffer:[ 21 0 0 0 20 ] ---
+[Time 60]Consumer 2 consumed 20 from index 4
+--- Buffer:[ 21 0 0 0 0 ] ---
+[Time 60]Consumer 4 consumed 21 from index 0
+--- Buffer:[ 0 0 0 0 0 ] ---
+[Time 70]Producer 2 produced 22 at index 1
+--- Buffer:[ 0 22 0 0 0 ] ---
+[Time 70]Producer 3 produced 23 at index 2
+--- Buffer:[ 0 22 23 0 0 ] ---
+[Time 70]Consumer 1 consumed 22 from index 1
+--- Buffer:[ 0 0 23 0 0 ] ---
+[Time 70]Producer 1 produced 24 at index 3
+--- Buffer:[ 0 0 23 24 0 ] ---
+[Time 70]Consumer 4 consumed 23 from index 2
+--- Buffer:[ 0 0 0 24 0 ] ---
+[Time 70]Consumer 2 consumed 24 from index 3
+--- Buffer:[ 0 0 0 0 0 ] ---
+[Time 80]Producer 2 produced 25 at index 4
+--- Buffer:[ 0 0 0 0 25 ] ---
+[Time 80]Producer 1 produced 26 at index 0
+--- Buffer:[ 26 0 0 0 25 ] ---
+[Time 80]Consumer 3 consumed 25 from index 4
+--- Buffer:[ 26 0 0 0 0 ] ---
+[Time 80]Producer 3 produced 27 at index 1
+--- Buffer:[ 26 27 0 0 0 ] ---
+[Time 80]Consumer 4 consumed 26 from index 0
+--- Buffer:[ 0 27 0 0 0 ] ---
+[Time 80]Consumer 1 consumed 27 from index 1
+--- Buffer:[ 0 0 0 0 0 ] ---
